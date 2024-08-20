@@ -1,0 +1,15 @@
+Useful tools:
+1. ranger	- File manager (terminal)
+2. ncdu		- Disk analyser
+3. Cantor	- Frontend Math App
+4. Kile		- Latex editor
+5. Kstars*	- Astronomy Software
+6. LabPlot* - Plotting App
+7. SciLab*  - Numerical Computation
+8. Kdenlive - Video Editor
+9. valgrind	- Memory leak analysis 
+10. strace	- Finds which files a program tries to open
+
+* - not installed
+
+7.1 Virtual Surround Sound : https://www.youtube.com/watch?v=Dc4lSt_-_uw
