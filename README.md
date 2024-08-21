@@ -7,5 +7,5 @@
 ## Neovim
 Configurations for Themes, Snippets, Syntax and Plugins.
     1. Plugin Manager   : ```vimplug```
-    2. Assembly Syntax  : ```nasm```1`
+    2. Assembly Syntax  : ```nasm```
 
