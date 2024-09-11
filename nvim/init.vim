@@ -15,9 +15,9 @@ set encoding=UTF-8
 
 call plug#begin()
 
-Plug 'https://github.com/preservim/nerdtree'		" NerdTree
-Plug 'https://github.com/vim-airline/vim-airline'	" Status bar
-Plug 'https://github.com/ryanoasis/vim-devicons'	" Developer Icons
+Plug 'https://github.com/preservim/nerdtree'			" NerdTree
+Plug 'https://github.com/vim-airline/vim-airline'		" Status bar
+Plug 'https://github.com/ryanoasis/vim-devicons'		" Developer Icons
 Plug 'https://github.com/rafi/awesome-vim-colorschemes' " Retro Scheme
 
 " Telescope for search
@@ -35,9 +35,9 @@ call plug#end()
 
 
 " Retro color Scheme
-":colorscheme jellybeans
+:colorscheme jellybeans
 ":colorscheme pablo
-:colorscheme gruvbox
+":colorscheme gruvbox
 
 " Find files using Telescope command-line sugar.
 nnoremap <leader>ff <cmd>Telescope find_files<cr>

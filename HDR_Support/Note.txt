@@ -1,0 +1,14 @@
+Works only for Plasma 6 Wayland
+References:
+Video Player: https://wiki.archlinux.org/title/Mpv
+YT:	https://www.youtube.com/watch?v=hFZQPel5_H4
+	https://www.youtube.com/watch?v=hSGWNq1rqAQ
+
+Arch Linux
+Vulkan Layer: https://aur.archlinux.org/packages/vk-hdr-layer-kwin6-git
+
+https://zamundaaa.github.io/wayland/2023/12/18/update-on-hdr-and-colormanagement-in-plasma.html
+
+Questions:
+1. How to enable HDR button in display settings?
+	Discussion: https://discuss.kde.org/t/no-hdr-option-in-plasma-6-using-igpu-instead-of-dgpu/13740
