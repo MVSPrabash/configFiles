@@ -4,10 +4,17 @@ vim.g.mapleader = " "           -- Space as leader key
 -- Basic settings
 vim.opt.number = true
 vim.opt.relativenumber = true
-vim.opt.expandtab = false       -- Convert tabs to spaces
+vim.opt.expandtab = false       -- Convert tabs to spaces, don't
 vim.opt.shiftwidth = 4			-- indent width
 vim.opt.tabstop = 4				-- Number of spaces for a tab
-vim.opt.clipboard = "unnamedplus"	-- Use system clipboard
+-- vim.opt.clipboard = "unnamedplus"	-- Use system clipboard
+
+
+-- nasm syntax for asm files
+vim.cmd("autocmd BufNew,BufRead *.asm set ft=nasm")
+
+
+
 
 -- Lazy Nvim (Plugin Manager)
 
