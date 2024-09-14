@@ -17,4 +17,5 @@ npm install -g pyright
 ```
 ### Sources
     1. vimplug to lazy : [notonlycode](https://www.notonlycode.org/neovim-lua-config/)
-    2. (More resources will be coming soon.)
+    2. Nasm syntax : [stackoverflow](https://stackoverflow.com/questions/782384/assembly-vim-syntax-highlighting)
+    3. https://stackoverflow.com/questions/782384/assembly-vim-syntax-highlighting 
