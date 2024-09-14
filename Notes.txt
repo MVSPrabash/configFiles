@@ -9,7 +9,13 @@ Useful tools:
 8. Kdenlive - Video Editor
 9. valgrind	- Memory leak analysis 
 10. strace	- Finds which files a program tries to open
+11. Neovim	- Text editor, nothing to say, just GOAT
+12. tldr	- User Friendly Manual for any tools, linux
 
 * - not installed
 
 7.1 Virtual Surround Sound : https://www.youtube.com/watch?v=Dc4lSt_-_uw
+
+Change the default Branch from master to main:
+$ git config --global init.defaultBranch main
+
