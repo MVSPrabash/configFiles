@@ -16,6 +16,6 @@ npm install -g vscode-langservers-extracted typescript typescript-language-serve
 npm install -g pyright
 ```
 ### Sources
-    1. vimplug to lazy : [notonlycode](https://www.notonlycode.org/neovim-lua-config/)
-    2. Nasm syntax : [stackoverflow](https://stackoverflow.com/questions/782384/assembly-vim-syntax-highlighting)
-    3. https://stackoverflow.com/questions/782384/assembly-vim-syntax-highlighting 
+1. vimplug to lazy : [notonlycode](https://www.notonlycode.org/neovim-lua-config/)
+2. Nasm syntax : [stackoverflow](https://stackoverflow.com/questions/782384/assembly-vim-syntax-highlighting)
+3. (More resources will be coming soon.) 
