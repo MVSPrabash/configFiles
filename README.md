@@ -1,9 +1,9 @@
 # **Configurations**
 ## Linux
 - bash
-    basic aliases
+    - basic aliases
 - Virtual Surround Sound (7.1)
-    Surround sound effect with High quality audio
+    - Surround sound effect with High quality audio
 - HDR
     - HDR support for KDE plasma, coming soon
 
