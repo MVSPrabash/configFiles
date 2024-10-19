@@ -5,7 +5,7 @@
 - Virtual Surround Sound (7.1)
     Surround sound effect with High quality audio
 - HDR
-    HDR support for KDE plasma, coming soon
+    - HDR support for KDE plasma, coming soon
 
 ## Neovim
 Configurations for Themes, Snippets, Syntax and Plugins.
