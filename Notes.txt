@@ -19,3 +19,20 @@ Useful tools:
 Change the default Branch from master to main:
 $ git config --global init.defaultBranch main
 
+OpenVPN set up:
+Link: https://www.youtube.com/watch?v=GB5qZWVnkD4
+
+
+Resources:
+Reddit: https://www.reddit.com/r/learnprogramming/wiki/faq/#wiki_where_can_i_find_practice_exercises_and_project_ideas.3F
+Build Your Own X : GitHub: https://github.com/codecrafters-io/build-your-own-x?tab=readme-ov-file#build-your-own-neural-network
+	- BootLoader (x86 NASM): https://www.joe-bergeron.com/posts/Writing%20a%20Tiny%20x86%20Bootloader/
+	- Bootloader (C++): http://3zanders.co.uk/2017/10/13/writing-a-bootloader/
+
+
+Flutter:
+Setup: Youtube: https://www.youtube.com/watch?v=AZQt0CAudnk
+Android SDK Folder: ~/Android/SDK/
+
+Color Accuracy in Power Saving Mode:
+https://discussion.fedoraproject.org/t/update-reduces-color-accuracy-in-favor-of-power-efficiency-amd-gpu/124723
