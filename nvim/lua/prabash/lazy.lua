@@ -22,7 +22,7 @@ require("lazy").setup(
 
 {
 	install = {		-- colorscheme during installations
-		colorscheme = { "gruvbox" },
+		colorscheme = { "jellybeans" },
 	},
 	checker = {		-- Checks for updates when opened
 		enabled = true,

@@ -12,7 +12,7 @@ vim.opt.tabstop = 4						-- Number of spaces for a tab
 vim.opt.encoding = "utf-8"	-- Unicode
 
 -- nasm syntax for asm files
-vim.cmd("autocmd BufNew,BufRead *.asm set ft=nasm")
+-- vim.cmd("autocmd BufNew,BufRead *.asm set ft=nasm")
 
 
 -- Copy, Cut and Paste to Clipboard

@@ -7,7 +7,7 @@ return {
 
 		lualine.setup {
 			options = {
-				theme = "gruvbox",    -- Set theme (gruvbox, dracula, etc.)
+				theme = "jellybeans",    -- Set theme (gruvbox, dracula, etc.)
 				section_separators = { left = '', right = '' },
 				component_separators = { left = '', right = '' },
 			}
