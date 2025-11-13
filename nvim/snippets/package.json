@@ -1,9 +1,0 @@
-{
-  "name": "personal-snippets",
-  "contributes": {
-    "snippets": [
-      { "language": "lua", "path": "./lua.json" },
-      { "language": "cpp", "path": "./cpp.json" }
-    ]
-  }
-}
