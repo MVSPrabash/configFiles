@@ -1,0 +1,113 @@
+* {
+    font-family: "JetBrainsMono Nerd Font";
+    font-size: 13px;
+    min-height: 0;
+}
+
+window#waybar {
+    background: transparent;
+}
+
+#waybar {
+    background: rgba(30, 30, 46, 0.85);
+    border-radius: 12px;
+    color: #cdd6f4;
+}
+
+/* --- workspaces --- */
+#workspaces {
+    background: rgba(24, 24, 37, 0.6);
+    margin: 5px 0 5px 8px;
+    padding: 0 4px;
+    border-radius: 10px;
+}
+
+#workspaces button {
+    padding: 0 8px;
+    margin: 3px 2px;
+    border-radius: 8px;
+    color: #6c7086;
+    background: transparent;
+    transition: all 0.3s ease;
+}
+
+#workspaces button.focused {
+    color: #1e1e2e;
+    background: #cba6f7;
+}
+
+#workspaces button.urgent {
+    color: #1e1e2e;
+    background: #f38ba8;
+}
+
+#workspaces button:hover {
+    background: rgba(203, 166, 247, 0.3);
+}
+
+/* --- launcher (arch button) --- */
+#custom-launcher {
+    font-size: 16px;
+    color: #89b4fa;
+    background: rgba(24, 24, 37, 0.6);
+    padding: 0 14px;
+    margin: 5px 6px 5px 8px;
+    border-radius: 10px;
+}
+
+#custom-launcher:hover {
+    background: rgba(137, 180, 250, 0.25);
+}
+
+/* --- shared pill style for right/center modules --- */
+#clock,
+#cpu,
+#memory,
+#battery,
+#network,
+#pulseaudio,
+#power-profiles-daemon,
+#tray,
+#mode {
+    padding: 0 12px;
+    margin: 5px 3px;
+    border-radius: 10px;
+    background: rgba(24, 24, 37, 0.6);
+    color: #cdd6f4;
+}
+
+#clock {
+    font-weight: 600;
+    color: #89b4fa;
+}
+
+#power-profiles-daemon {
+    color: #a6e3a1;
+}
+
+#battery.warning { color: #f9e2af; }
+#battery.critical {
+    color: #f38ba8;
+    animation: blink 1.5s linear infinite;
+}
+@keyframes blink {
+    50% { opacity: 0.4; }
+}
+
+#network.disconnected { color: #f38ba8; }
+#network.linked { color: #f9e2af; }
+
+#pulseaudio.muted { color: #6c7086; }
+
+#tray { margin-right: 8px; }
+
+/* --- calendar popup --- */
+tooltip {
+    background: #1e1e2e;
+    border: 1px solid #cba6f7;
+    border-radius: 10px;
+}
+tooltip label {
+    color: #cdd6f4;
+    padding: 4px;
+}

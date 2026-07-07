@@ -1,0 +1,47 @@
+{
+    "layer": "top",
+    "position": "top",
+
+    "modules-left": [
+        "hyprland/workspaces"
+    ],
+
+    "modules-center": [
+        "clock"
+    ],
+
+    "modules-right": [
+        "power-profiles-daemon",
+        "pulseaudio",
+        "battery",
+        "tray"
+    ],
+
+    "clock": {
+        "format": "  {:%H:%M}"
+    },
+
+    "power-profiles-daemon": {
+        "format": "{icon}",
+        "tooltip-format": "{profile}",
+        "format-icons": {
+            "performance": "󰓅",
+            "balanced": "󰾅",
+            "power-saver": "󰌪"
+        }
+    },
+
+    "pulseaudio": {
+        "format": "{icon}",
+        "format-muted": "󰝟",
+        "format-icons": {
+            "default": ["󰕿", "󰖀", "󰕾"]
+        }
+    },
+
+    "battery": {
+        "format": "{icon}",
+        "format-charging": "󰂄",
+        "format-icons": ["󰂎","󰁺","󰁼","󰁾","󰂀","󰂂"]
+    }
+}

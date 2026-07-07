@@ -1,0 +1,119 @@
+/* Reset & Base Fonts */
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrainsMono Nerd Font", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    min-height: 0;
+}
+
+window#waybar {
+    background-color: rgba(26, 27, 38, 0.65); /* Translucent dark background */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+/* Common Module Styling for the 'Pill' effect */
+#workspaces,
+#window,
+#clock,
+#network,
+#bluetooth,
+#temperature,
+#battery,
+#backlight,
+#pulseaudio,
+#tray {
+    background-color: rgba(41, 46, 66, 0.8);
+    padding: 0px 15px;
+    margin: 5px 4px 5px 4px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #c0caf5;
+}
+
+/* Left Modules */
+#workspaces button {
+    padding: 0 8px;
+    color: #565f89;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+#workspaces button.focused,
+#workspaces button.active {
+    color: #7aa2f7;
+    background-color: rgba(122, 162, 247, 0.15);
+    border-radius: 8px;
+}
+
+#workspaces button.urgent {
+    color: #f7768e;
+}
+
+#window {
+    color: #bb9af3;
+    font-weight: bold;
+}
+
+/* Center Module (Clock) */
+#clock {
+    color: #79aac8;
+    background: linear-gradient(45deg, rgba(65, 72, 104, 0.8), rgba(41, 46, 66, 0.8));
+    font-weight: bold;
+}
+
+/* Right Modules Color Gradients */
+#network {
+    color: #73daca;
+}
+
+#bluetooth {
+    color: #b4f9f8;
+}
+
+#temperature {
+    color: #ff9e64;
+}
+
+#battery {
+    color: #9ece6a;
+}
+
+#battery.charging, #battery.plugged {
+    color: #e0af68;
+}
+
+#battery.critical:not(.charging) {
+    background-color: #f7768e;
+    color: #1a1b26;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#backlight {
+    color: #e0af68;
+}
+
+#pulseaudio {
+    color: #bb9af3;
+}
+
+#pulseaudio.muted {
+    color: #565f89;
+}
+
+#tray {
+    background-color: rgba(26, 27, 38, 0.9);
+}
+
+@keyframes blink {
+    to {
+        background-color: rgba(41, 46, 66, 0.8);
+        color: #f7768e;
+    }
+}
